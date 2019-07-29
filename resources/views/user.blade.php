@@ -2,6 +2,12 @@
 
 @section('content')
     <div class="container">
+    @if ($message = session()->get('success'))
+    <div class="alert alert-success alert-block">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <strong>{{ $message }}</strong>
+    </div>
+    @endif
         <div class="section">
             <div class="row">
                 <div class="col s12 m8 offset-m2">
