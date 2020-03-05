@@ -12,3 +12,4 @@ First part consists of Object Detection and Character Recognition tasks. HAAR Ca
 Back-end part was responsible for several tasks which include establishment of user and car profiles, and management of car access to the specific property. Only whitelisted cars can access to the property at a given time. 
 </li>
 </ul>
+TEST
